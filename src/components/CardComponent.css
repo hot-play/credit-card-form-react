@@ -1,0 +1,125 @@
+.main_menu {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+.card_background {
+    position: relative;
+    background-image: url(../picture/kosmos-space-svet-tma-vselennaia-zvezdy.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    width: 420px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+}
+.card {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 230px;
+    width: 420px;
+    border-radius: 15px;
+    margin: auto;
+    z-index: 2;
+    color: rgb(200, 200, 200);
+}
+.back {
+    height: 480px;
+    width: 560px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -100px;
+    z-index: 1;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    background-color: white;
+}
+.input_card {
+    position: relative;
+    height: 360px;
+    width: 520px;
+    top: 100px;
+    left: 20px;
+}
+.input_card_name {
+    margin-top: 30px;
+    height: 40px;
+    width: 520px;
+}
+.input_card_holder {
+    margin-top: 30px;
+    height: 40px;
+    width: 520px;
+}
+.input_row {
+    display: inline-flex;
+    margin-top: 30px;
+    height: 60px;
+    width: 520px;
+    float: left;
+}
+.input_card_date {
+    float: left;
+    height: 60px;
+    width: 240px;
+}
+.input_card_cvv {
+    float: right;
+    height: 60px;
+    width: 60%;
+}
+.card_center {
+    position: relative;
+    height: 60px;
+    width: 400px;
+    margin: auto;
+    top: 90px;
+    left: 10px;
+}
+.card_bottom {
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 420px;
+    margin: auto;
+    top: 100px;
+    left: 30px;
+}
+.card_number {
+    display: inline-flex;
+    margin: auto;
+    height: 60px;
+    width: 380px;
+}
+.number {
+    height: 60px;
+    width: 20px;
+    font-size: 35px;
+}
+.void_number {
+    height: 60px;
+    width: 25px;
+}
+.card_holder {
+    float: left;
+    height: 80px;
+    width: 120px;
+}
+.card_date {
+    float: right;
+    height: 80px;
+    width: 120px;
+}
+.select_case {
+    margin-right: 10px;
+    float: left;
+    height: 35px;
+    font-size: 20px;
+}
+.input {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
